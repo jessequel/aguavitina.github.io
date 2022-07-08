@@ -4,7 +4,14 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 
 .page-title{
     background-image: url(image/page-title.png);
@@ -14,7 +21,8 @@
 }
 
 .row-md h1{
-    padding: 9rem 0 9rem 0;
+    padding: 17vh 0 17vh 0;
+    
     font-size: 5vw;
     font-weight: bold;
     color: white;
@@ -23,20 +31,22 @@
     
 }
 
-.container{
-    
-    margin-bottom: 10vh;
+#cont1{
+    margin-bottom: 4rem;
 }
 
+#cont2{
+    margin-bottom: 4rem;
+}
 #cont2 .img-fluid{
     height: fit-content;
-    width: 10vw;
-    min-width: 30%;
-    max-width: 40%;
+    width: 6vw;
+    min-width: 20%;
+    max-width: 30%;
 }
 
 #row3{
-    margin-top: 10vh;
+    margin: 3rem 0 3rem 0 ;
 }
 
 .row{
@@ -55,6 +65,11 @@
 .form{
     background-color:#062d88 ;
     padding: 1rem;
+
+}
+
+#cont2 h3{
+    font-size: 2vw;
 
 }
 
@@ -115,18 +130,28 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
     .row-md h1{
         font-size: 10vw;
-        
+    }
+
+    #cont2 .col-md {
+       margin-bottom: 3rem;
     }
 
     #row3 .col-md iframe{
-        height: 27rem ;
-        width: 20rem;
+        height: 22rem ;
+        width: 70vw ;
+       
     }
-
+    #cont2{
+        margin-bottom: 1rem;
+    }
+    #cont2 h3{
+        font-size: 6vw;
+    
+    }
     .form .col-md h4{
         color: white;
-        
-        font-size: 1.2rem;
+        font-size: 5vw;
+        margin-bottom: 40px;
     }
 }
 
@@ -137,22 +162,31 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) {
     
     #row3 .col-md iframe{
-        height: 27rem ;
-        width: 22rem;
+        height: 80%;
+        width:fit-content;
     }
     .form .col-md h4{
         color: white;
         
         font-size: 2.1vw;
     }
+
+  
+    .form .col-md h4{
+        color: white;
+        font-size: 2vw;
+        margin: 0 0 40px 0;
+
+    }
+
+    #cont2 h3{
+        font-size: 3vw;
+    
+    }
 }
 
 
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-/* Styles */
-}
+
 
 /* Large screens ----------- */
 @media only screen 
@@ -165,6 +199,11 @@ and (min-width : 1824px) {
         color: white;
         
         font-size: 1.5vw;
+    }
+
+    #cont2 h3{
+        font-size: 1.4vw;
+    
     }
 }
 
