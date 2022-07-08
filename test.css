@@ -1,0 +1,197 @@
+body
+{
+	align-items: center;
+	background-color: rgb(186, 216, 125);
+	display: flex;
+	font-family: 'Work Sans';
+	font-size: 0.8rem;
+	justify-content: center;
+	min-height: 100vh;
+}
+.card
+{
+	background-color: rgb(46, 45, 45);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	color: white;
+	max-width: 1000px;
+	padding: 4rem;
+	width: 100%;
+}
+
+.row
+{
+	margin: 0;
+}
+.path
+{
+	color: grey;
+	margin-bottom: 1rem;
+}
+.path a
+{
+	color: #ffffff;
+}
+.info
+{
+	padding: 6vh 0vh;
+}
+
+.checked
+{
+	color: rgb(255, 217, 0);
+	margin-right: 1vh;
+}
+.fa-star-half-full
+{
+	color: rgb(255, 217, 0);
+}
+img
+{
+	height: fit-content;
+	padding: 1rem;
+	width: 75%;
+}
+
+.title .col
+{
+	padding: 0;
+}
+.fa-heart-o
+{
+	color: #ffffffaf;
+	font-size: 2rem;
+	font-weight: lighter;
+}
+#reviews
+{
+	color: grey;
+	margin-left: 3vh;
+}
+.price
+{
+	margin-top: 2rem;
+}
+label.radio span
+{
+	background-color: rgb(54, 54, 54);
+	color: grey;
+	display: inline-block;
+	margin-right: 2vh;
+	padding: 1vh 4vh;
+}
+label.radio input:checked+span
+{
+	background-color: rgb(54, 54, 54);
+	border: 1px solid white;
+	color: #ffffff;
+	display: inline-block;
+	margin-right: 2vh;
+	padding: 1vh 4vh;
+}
+.carousel-control-prev
+{
+	width: unset;
+}
+.carousel-control-next
+{
+	left: 8vh;
+	right: unset;
+	width: unset;
+}
+.lower
+{
+	margin-top: 3rem;
+}
+.lower i
+{
+	border: 1px solid rgb(85, 85, 85);
+	color: grey;
+	margin-right: 1vh;
+	padding: 2.5vh;
+}
+.lower .col
+{
+	padding: 0;
+}
+
+.btn
+{
+	background-color: transparent;
+	border-color: rgba(186, 216, 125, 0.863);
+	border-radius: 3px;
+	color: rgba(186, 216, 125, 0.863);
+	height: fit-content;
+	padding: 1.8vh 4.5vh;
+}
+.btn:focus
+{
+	box-shadow: none;
+	color: white;
+	outline: none;
+	transition: none;
+	webkit-box-shadow: none;
+	webkit-user-select: none;
+}
+
+
+a
+{
+	color: unset;
+}
+a:hover
+{
+	color: unset;
+	text-decoration: none;
+}
+
+
+
+@media(max-width:768px)
+{
+	.card
+	{
+		padding: 1.5rem;
+		width: 100%;
+	}
+}
+
+@media(max-width:768px)
+{
+	.info
+	{
+		padding: 0;
+	}
+}
+
+@media(max-width:768px)
+{
+	img
+	{
+		padding: 2.5rem 0;
+	}
+}
+
+@media(max-width:768px)
+{
+	.lower i
+	{
+		border: 1px solid rgb(85, 85, 85);
+		color: grey;
+		margin-right: 1vh;
+		padding: 2vh;
+	}
+}
+
+@media(max-width:768px)
+{
+	.btn
+	{
+		background-color: transparent;
+		border-color: rgba(186, 216, 125, 0.863);
+		border-radius: 3px;
+		color: rgba(186, 216, 125, 0.863);
+		font-size: 0.9rem;
+		height: fit-content;
+		padding: 1vh;
+	}
+}

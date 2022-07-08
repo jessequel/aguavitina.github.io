@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.page-title{
+    background-image: url(image/page-title.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.row-md h1{
+    padding: 9rem 0 9rem 0;
+    font-size: 5vw;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 5px 4px #000000;
+   
+    
+}
+
+.container{
+    
+    margin-bottom: 10vh;
+}
+
+#cont2 .img-fluid{
+    height: fit-content;
+    width: 10vw;
+    min-width: 30%;
+    max-width: 40%;
+}
+
+#row3{
+    margin-top: 10vh;
+}
+
+.row{
+    text-align: center;
+
+}
+
+.row h3{
+    font-weight: bold;
+}
+
+.row p, a{
+    color: #828692;
+}
+
+.form{
+    background-color:#062d88 ;
+    padding: 1rem;
+
+}
+
+.form .col-md h4{
+    color: white;
+    font-size: 1.4vw;
+    margin-bottom: 40px;
+}
+
+.form form button{
+    width: 10rem;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: #ee1c27;
+    border: none;
+    
+    
+    
+    
+}
+
+#row3 .col-md iframe{
+    height: 26rem ;
+    width: 33vw;
+}
+
+
+#row3 .col-md a span{
+    display: none;
+}
+
+.page-footer{
+    background-color: white !important;
+}
+.page-footer .col-md small{
+        
+    font-size: 15px;
+    height: fit-content;
+    color: #062d88 !important;
+    
+    
+
+}
+
+.page-footer .col-md .fab{
+    color: #062d88 !important;
+    height: auto;
+    
+
+}
+/*MEDIA QUERIES*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .row-md h1{
+        font-size: 10vw;
+        
+    }
+
+    #row3 .col-md iframe{
+        height: 27rem ;
+        width: 20rem;
+    }
+
+    .form .col-md h4{
+        color: white;
+        
+        font-size: 1.2rem;
+    }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    
+    #row3 .col-md iframe{
+        height: 27rem ;
+        width: 22rem;
+    }
+    .form .col-md h4{
+        color: white;
+        
+        font-size: 2.1vw;
+    }
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+    #row3 .col-md iframe{
+        height: 29rem ;
+        width: 27vw;
+    }
+    .form .col-md h4{
+        color: white;
+        
+        font-size: 1.5vw;
+    }
+}
+
+
+
+
